@@ -12,3 +12,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 6. Firebase Hosting to Deploy the APP
 
 #### Dependencies:
+
+1. Material UI Design Library `npm i @material-ui/core`
+2. Material UI Icon Library `npm i @material-ui/icons`
