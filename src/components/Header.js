@@ -10,7 +10,11 @@ export default function Header() {
     <div className="header">
       <div className="header__left">
         {/* Avatar for logged in user  */}
-        <Avatar className="header__avatar" alt="Elliot Alderson" src="" />
+        <Avatar
+          className="header__avatar"
+          alt="Elliot Alderson"
+          src="https://avatars0.githubusercontent.com/u/43115122?s=460&u=63e0d46721cbdb324d204c461a47f0dc0d3b5840&v=4"
+        />
         {/* Time icon  */}
         <AccessTimeIcon />
       </div>

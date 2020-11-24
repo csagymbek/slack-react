@@ -15,3 +15,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 1. Material UI Design Library `npm i @material-ui/core`
 2. Material UI Icon Library `npm i @material-ui/icons`
+3. React Router `npm install react-router-dom`
