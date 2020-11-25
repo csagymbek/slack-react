@@ -1,4 +1,8 @@
 .login {
+  display: grid;
+  height: 100vh;
+  background-color: #f8f8f8;
+  place-items: center;
 }
 
 .login__container {
