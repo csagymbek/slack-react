@@ -6,6 +6,7 @@ import InfoOutlinedIcon from "@material-ui/icons/InfoOutlined";
 import { database } from "../configs/firebase";
 import Message from "./Message";
 import { v4 as uuidv4 } from "uuid";
+import ChatInput from "./ChatInput";
 
 export default function Chat() {
   const { roomId } = useParams();
@@ -59,6 +60,7 @@ export default function Chat() {
           />
         ))}
       </div>
+      <ChatInput channelName={roomDetails?.name} channelId={roomId} />
     </div>
   );
 }

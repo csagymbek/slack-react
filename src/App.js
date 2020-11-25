@@ -1,11 +1,11 @@
 import React from "react";
+import { useStateValue } from "./context api/StateProvider";
 import "./styles/App.css";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Chat from "./components/Chat";
 import Login from "./components/Login";
-import { useStateValue } from "./context api/StateProvider";
 
 export default function App() {
   const [{ user }, dispatch] = useStateValue();

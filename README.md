@@ -1,6 +1,6 @@
 ### Slack React App
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [https://slack-react-1a46a.web.app/room/People%20&%20user%20groups](https://slack-react-1a46a.web.app/room/People%20&%20user%20groups) to view it in the browser.
 
 #### Functionality:
 
